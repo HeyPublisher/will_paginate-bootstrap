@@ -5,9 +5,9 @@ require "bootstrap_pagination/version"
 Gem::Specification.new do |s|
   s.name        = "will_paginate-bootstrap"
   s.version     = BootstrapPagination::VERSION
-  s.authors     = ["Nick Dainty"]
-  s.email       = ["nick@npad.co.uk"]
-  s.homepage    = "https://github.com/bootstrap-ruby/will_paginate-bootstrap"
+  s.authors     = ["Nick Dainty", 'Richard Luck']
+  s.email       = ["nick@npad.co.uk", 'richard@heypublisher.com']
+  s.homepage    = "https://github.com/HeyPublisher/will_paginate-bootstrap"
   s.summary     = %q{Integrates the Twitter Bootstrap pagination component with will_paginate}
   s.description = %q{This gem integrates the Twitter Bootstrap pagination component with the will_paginate pagination gem. Supports Rails and Sinatra.}
   s.license     = "MIT"
@@ -19,5 +19,5 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency "will_paginate", ">= 3.0.3"
+  s.add_runtime_dependency "will_paginate", ">= 3.1.6"
 end

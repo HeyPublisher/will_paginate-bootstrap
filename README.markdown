@@ -2,15 +2,13 @@
 
 ---
 
-__No longer maintained__
+__Minimal Updates__
 
-I'm no longer using Bootstrap with Rails, so unfortunately am no longer accepting pull requests or maintaining this library. Feel free to fork this repository in order to publish your changes, or get in touch with me if you'd like to take over maintenance of the gem.
+The original author of this gem is no longer maintaining it.  This version of the gem is being maintained solely for the use within the HeyPublisher appliction.  If you have feature requests, it may take us a while to get to them.
 
 ---
 
-[![Code Climate](https://codeclimate.com/github/bootstrap-ruby/will_paginate-bootstrap.png)](https://codeclimate.com/github/bootstrap-ruby/will_paginate-bootstrap)
-
-![Bootstrap Pagination Component](https://raw.github.com/bootstrap-ruby/will_paginate-bootstrap/master/pagination.png)
+![Bootstrap Pagination Component](https://raw.github.com/HeyPublisher/will_paginate-bootstrap/master/pagination.png)
 
 This gem integrates the [Twitter Bootstrap](http://getbootstrap.com/) [pagination component](http://getbootstrap.com/components/#pagination) with the [will_paginate](https://github.com/mislav/will_paginate) pagination gem.
 
